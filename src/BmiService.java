@@ -1,9 +1,9 @@
 public class BmiService {
 
     public float calculate(float hieghtInMeters, int bodyWeightKg) {
-        float result;
+        int result;
 
-        result = bodyWeightKg / (hieghtInMeters * hieghtInMeters);
+        result = (int) (bodyWeightKg / (hieghtInMeters * hieghtInMeters));
 
         return result;
 
