@@ -5,7 +5,7 @@ public class BmiService {
 
         result = (int) (bodyWeightKg / (hieghtInMeters * hieghtInMeters));
 
-        return result;
+        return (int) result;
 
     }
 }
